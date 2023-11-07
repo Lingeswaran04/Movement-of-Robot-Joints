@@ -27,40 +27,23 @@ def OnRun():
 ```
 ## Output
 ### 1. Generic Articulated Robot
-</br> 
-</br> ![WhatsApp Image 2023-11-07 at 08 13 46_eb317ea6](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/aa392712-2565-4e08-8ebe-4202a9072ff2)
+![WhatsApp Image 2023-11-07 at 08 13 46_eb317ea6](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/aa392712-2565-4e08-8ebe-4202a9072ff2)
 
-</br>
-</br>
 
 ### 2. robot.driveJoints(0,0,0,0,0,0)
-</br> ![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/7a609aec-cfe0-4b27-ac44-ffad03c4d9eb)
+![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/7a609aec-cfe0-4b27-ac44-ffad03c4d9eb)
 
-</br>
-
-</br>
-</br>
 
 ### 3. Movement of Joint1
-</br>
-</br> ![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/d16689e1-7213-4635-b956-19df1dfd856d)
+![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/d16689e1-7213-4635-b956-19df1dfd856d)
 
-</br>
-</br>
 
 ### 3. Movement of Joint2
-</br>
-</br> ![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/23d70445-7b77-4ea2-a574-a2face030415)
+![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/23d70445-7b77-4ea2-a574-a2face030415)
 
-</br>
-</br>
 
 ### 3. Movement of Joint3
-</br>
-</br> ![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/9115dfe8-3ff9-4d2a-9f8f-ded43652038f)
-
-</br>
-</br>
+![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/9115dfe8-3ff9-4d2a-9f8f-ded43652038f)
 
 ## Result 
 Thus the different robots joints are moved with the help of python list.
