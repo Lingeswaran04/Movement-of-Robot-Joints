@@ -14,41 +14,51 @@ Visual Components Premium 4.3
 
 ## Program
 ```python
-
-
-
-
-
-
+from vcScript import *
+from vcHelpers.Robot2 import *
+def OnRun():
+  pos=[[1,30],[2,40],[3,90]]
+  robot = getRobot()
+  robot.driveJoints(0,0,0,0,0,0)
+  delay(5)
+  for i in pos:
+    robot.Controller.moveJoint(i[0],i[1])
+    delay(5)
 ```
 ## Output
 ### 1. Generic Articulated Robot
-</br>
-</br>
+</br> 
+</br> ![WhatsApp Image 2023-11-07 at 08 13 46_eb317ea6](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/aa392712-2565-4e08-8ebe-4202a9072ff2)
+
 </br>
 </br>
 
 ### 2. robot.driveJoints(0,0,0,0,0,0)
+</br> ![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/7a609aec-cfe0-4b27-ac44-ffad03c4d9eb)
+
 </br>
-</br>
+
 </br>
 </br>
 
 ### 3. Movement of Joint1
 </br>
-</br>
+</br> ![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/d16689e1-7213-4635-b956-19df1dfd856d)
+
 </br>
 </br>
 
 ### 3. Movement of Joint2
 </br>
-</br>
+</br> ![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/23d70445-7b77-4ea2-a574-a2face030415)
+
 </br>
 </br>
 
 ### 3. Movement of Joint3
 </br>
-</br>
+</br> ![image](https://github.com/Lingeswaran04/Movement-of-Robot-Joints/assets/119103865/9115dfe8-3ff9-4d2a-9f8f-ded43652038f)
+
 </br>
 </br>
 
